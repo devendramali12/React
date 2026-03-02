@@ -11,6 +11,9 @@ import Greeting from "./props/Greeting";
 import ComponentA from "./prop-driling/ComponentA";
 // import Inline from "./css-react/Inline";
 import Inline from "./css-react/inline";
+import Trainer from "./css-react/Trainer";
+import Councellor from "./css-react/Councellor";
+import "./global.css";
 
 const App = () => {
   // let month = "February";
@@ -29,6 +32,8 @@ const App = () => {
       <India></India>
       <SriLanka></SriLanka> */}
       <Inline></Inline>
+      <Trainer></Trainer>
+      <Councellor></Councellor>
 
       {/* <Newcomp></Newcomp> */}
       {/* {<House captain="Akshita" house="Red" students={150}/>

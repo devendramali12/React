@@ -1,0 +1,9 @@
+h2 {
+  color: chocolate;
+  font-style: italic;
+}
+
+p {
+  color: tomato;
+  text-transform: capitalize;
+}
