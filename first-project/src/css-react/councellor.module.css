@@ -1,0 +1,11 @@
+/* //? extensuin --> .module.css */
+
+.heading {
+  color: crimson;
+
+  text-transform: uppercase;
+}
+.para{
+    color: rgb(165, 5, 165);
+    text-transform: uppercase;
+}
