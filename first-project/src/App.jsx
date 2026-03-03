@@ -14,6 +14,9 @@ import Inline from "./css-react/inline";
 import Trainer from "./css-react/Trainer";
 import Councellor from "./css-react/Councellor";
 import "./global.css";
+import Student from "./css-react/Student";
+import Navbar from "./task/Navbar";
+import Displayuser from "./task/Displayuser";
 
 const App = () => {
   // let month = "February";
@@ -31,9 +34,10 @@ const App = () => {
       <CondRendering />
       <India></India>
       <SriLanka></SriLanka> */}
-      <Inline></Inline>
+      {/* <Inline></Inline>
       <Trainer></Trainer>
       <Councellor></Councellor>
+      <Student></Student> */}
 
       {/* <Newcomp></Newcomp> */}
       {/* {<House captain="Akshita" house="Red" students={150}/>
@@ -44,6 +48,8 @@ const App = () => {
       {/* <Greeting>Happy Holi</Greeting>
       <Greeting>Happy Diwali</Greeting> */}
       {/* <ComponentA></ComponentA> */}
+      <Navbar></Navbar>
+      <Displayuser></Displayuser>
     </section>
   );
 };
