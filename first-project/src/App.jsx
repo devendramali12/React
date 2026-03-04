@@ -17,6 +17,8 @@ import "./global.css";
 import Student from "./css-react/Student";
 import Navbar from "./task/Navbar";
 import Displayuser from "./task/Displayuser";
+import Firststate from "./states/Firststate";
+import CounterApp from "./states/CounterApp";
 
 const App = () => {
   // let month = "February";
@@ -48,8 +50,10 @@ const App = () => {
       {/* <Greeting>Happy Holi</Greeting>
       <Greeting>Happy Diwali</Greeting> */}
       {/* <ComponentA></ComponentA> */}
-      <Navbar></Navbar>
-      <Displayuser></Displayuser>
+      {/* <Navbar></Navbar> */}
+      {/* <Displayuser></Displayuser> */}
+      {/* <Firststate></Firststate> */}
+      <CounterApp></CounterApp>
     </section>
   );
 };
