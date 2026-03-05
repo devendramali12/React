@@ -62,7 +62,7 @@ const App = () => {
       {/* <Message></Message> */}
 
       {/* <Refcomp></Refcomp> */}
-      <Customer></Customer>
+
       <Context1></Context1>
     </section>
   );
