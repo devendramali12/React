@@ -1,5 +1,6 @@
 //! 1 Functional Based Component
 
+import Message from "./Message";
 import Firstcomp from "./Firstcomp";
 import Classcomp from "./Classcomp";
 import Fragcomp from "./Fragcomp";
@@ -10,7 +11,7 @@ import Newcomp from "./props/Newcomp";
 import Greeting from "./props/Greeting";
 import ComponentA from "./prop-driling/ComponentA";
 // import Inline from "./css-react/Inline";
-import Inline from "./css-react/inline";
+import Inline from "./css-react/Inline";
 import Trainer from "./css-react/Trainer";
 import Councellor from "./css-react/Councellor";
 import "./global.css";
@@ -19,6 +20,9 @@ import Navbar from "./task/Navbar";
 import Displayuser from "./task/Displayuser";
 import Firststate from "./states/Firststate";
 import CounterApp from "./states/CounterApp";
+import Refcomp from "./refernce/Refcomp";
+import Customer from "./context-api/Customer";
+import Context1 from "./context-api/Context1";
 
 const App = () => {
   // let month = "February";
@@ -53,7 +57,13 @@ const App = () => {
       {/* <Navbar></Navbar> */}
       {/* <Displayuser></Displayuser> */}
       {/* <Firststate></Firststate> */}
-      <CounterApp></CounterApp>
+      {/* <CounterApp></CounterApp> */}
+
+      {/* <Message></Message> */}
+
+      {/* <Refcomp></Refcomp> */}
+      <Customer></Customer>
+      <Context1></Context1>
     </section>
   );
 };
