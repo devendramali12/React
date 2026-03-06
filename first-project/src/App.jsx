@@ -23,6 +23,11 @@ import CounterApp from "./states/CounterApp";
 import Refcomp from "./refernce/Refcomp";
 import Customer from "./context-api/Customer";
 import Context1 from "./context-api/Context1";
+import Context2 from "./context-api/Context2";
+import Employee from "./context-api/Employee";
+import Company from "./context-api/Company";
+import Team1 from "./hoc/Team1";
+import Team2 from "./hoc/Team2";
 
 const App = () => {
   // let month = "February";
@@ -63,7 +68,14 @@ const App = () => {
 
       {/* <Refcomp></Refcomp> */}
 
-      <Context1></Context1>
+      {/* <Context1></Context1> */}
+
+      {/* <Context2>
+        <Company></Company>
+        <Employee></Employee>
+      </Context2> */}
+      <Team1></Team1>
+      <Team2></Team2>
     </section>
   );
 };
