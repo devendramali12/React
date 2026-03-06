@@ -28,6 +28,8 @@ import Employee from "./context-api/Employee";
 import Company from "./context-api/Company";
 import Team1 from "./hoc/Team1";
 import Team2 from "./hoc/Team2";
+import Counter1 from "./HW/Counter1";
+import Counter2 from "./HW/Counter2";
 
 const App = () => {
   // let month = "February";
@@ -74,8 +76,11 @@ const App = () => {
         <Company></Company>
         <Employee></Employee>
       </Context2> */}
-      <Team1></Team1>
-      <Team2></Team2>
+      {/* <Team1></Team1> */}
+      {/* <Team2></Team2> */}
+
+      <Counter1></Counter1>
+      <Counter2></Counter2>
     </section>
   );
 };
