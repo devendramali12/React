@@ -30,6 +30,8 @@ import Team1 from "./hoc/Team1";
 import Team2 from "./hoc/Team2";
 import Counter1 from "./HW/Counter1";
 import Counter2 from "./HW/Counter2";
+import Comp1 from "./props/Comp1";
+import Comp2 from "./props/Comp2";
 
 const App = () => {
   // let month = "February";
@@ -81,6 +83,26 @@ const App = () => {
 
       <Counter1></Counter1>
       <Counter2></Counter2>
+      {/* 
+      <Comp1
+        student="Akshat"
+        rollno={18}
+        member={true}
+        task={undefined}
+        project={null}
+      />
+
+      <Comp2
+        rainbow={[
+          "violet",
+          "indigo",
+          "blue",
+          "green",
+          "yellow",
+          "orange",
+          "red",
+        ]}
+      /> */}
     </section>
   );
 };
