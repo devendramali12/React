@@ -32,6 +32,8 @@ import Counter1 from "./HW/Counter1";
 import Counter2 from "./HW/Counter2";
 import Comp1 from "./props/Comp1";
 import Comp2 from "./props/Comp2";
+import Uncontrolled from "./forms/Uncontrolled";
+import Controlled from "./forms/Controlled";
 
 const App = () => {
   // let month = "February";
@@ -81,8 +83,8 @@ const App = () => {
       {/* <Team1></Team1> */}
       {/* <Team2></Team2> */}
 
-      <Counter1></Counter1>
-      <Counter2></Counter2>
+      {/* <Counter1></Counter1> */}
+      {/* <Counter2></Counter2> */}
       {/* 
       <Comp1
         student="Akshat"
@@ -103,6 +105,9 @@ const App = () => {
           "red",
         ]}
       /> */}
+
+      {/* <Uncontrolled /> */}
+      <Controlled />
     </section>
   );
 };
