@@ -34,6 +34,7 @@ import Comp1 from "./props/Comp1";
 import Comp2 from "./props/Comp2";
 import Uncontrolled from "./forms/Uncontrolled";
 import Controlled from "./forms/Controlled";
+import Details from "./forms/Details";
 
 const App = () => {
   // let month = "February";
@@ -107,7 +108,8 @@ const App = () => {
       /> */}
 
       {/* <Uncontrolled /> */}
-      <Controlled />
+      {/* <Controlled /> */}
+      <Details />
     </section>
   );
 };

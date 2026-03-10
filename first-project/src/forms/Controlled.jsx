@@ -17,11 +17,20 @@ const Controlled = () => {
     setPassword(e.target.value);
   };
 
+  //? 4. Submit
+
+  let handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(email, password);
+    setEmail("");
+    setPassword("");
+  };
+
   return (
     //? 2. Pass the value attribute in the input fields
     <>
       <h2>Controlled Form</h2>
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <input
           type="email"
           placeholder="Enter Your Email"
