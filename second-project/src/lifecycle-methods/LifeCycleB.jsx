@@ -1,18 +1,14 @@
-import { Component } from "react";
+import React, { Component } from "react";
 
 class LifecycleB extends Component {
-  //3  UnMounting Phase
+  //! 3. Unmounting Phase
 
   componentWillUnmount() {
-    console.log("LifeCycleB componentWillUnmount");
+    console.log("LifecycleB componentWillUnmount");
   }
 
   render() {
-    return (
-      <>
-        <h2>LifeCycleB</h2>
-      </>
-    );
+    return <div>LifecycleB</div>;
   }
 }
 
