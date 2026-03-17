@@ -6,6 +6,7 @@ import { useState } from "react";
 import SideEffect from "./fetch-data/SideEffect";
 import Fetchusers from "./fetch-data/Fetchusers";
 import Fetchproduct from "./fetch-data/Fetchproduct";
+import Parentcomp from "./memoization/Parentcomp";
 
 const App = () => {
   let [open, setOpen] = useState(false);
@@ -24,7 +25,8 @@ const App = () => {
      <Modal open={open} closeModal={closeModal}/> */}
       {/* <SideEffect/> */}
       {/* <Fetchusers/> */}
-      <Fetchproduct />
+      {/* <Fetchproduct /> */}
+      <Parentcomp />
     </>
   );
 };
