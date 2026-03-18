@@ -7,6 +7,7 @@ import SideEffect from "./fetch-data/SideEffect";
 import Fetchusers from "./fetch-data/Fetchusers";
 import Fetchproduct from "./fetch-data/Fetchproduct";
 import Parentcomp from "./memoization/Parentcomp";
+import Memocomp from "./memoization/Memocomp";
 
 const App = () => {
   let [open, setOpen] = useState(false);
@@ -26,7 +27,8 @@ const App = () => {
       {/* <SideEffect/> */}
       {/* <Fetchusers/> */}
       {/* <Fetchproduct /> */}
-      <Parentcomp />
+      {/* <Parentcomp /> */}
+      <Memocomp />
     </>
   );
 };
