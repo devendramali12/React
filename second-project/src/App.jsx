@@ -8,6 +8,7 @@ import Fetchusers from "./fetch-data/Fetchusers";
 import Fetchproduct from "./fetch-data/Fetchproduct";
 import Parentcomp from "./memoization/Parentcomp";
 import Memocomp from "./memoization/Memocomp";
+import TodoList from "./task/TodoList";
 
 const App = () => {
   let [open, setOpen] = useState(false);
@@ -28,7 +29,8 @@ const App = () => {
       {/* <Fetchusers/> */}
       {/* <Fetchproduct /> */}
       {/* <Parentcomp /> */}
-      <Memocomp />
+      {/* <Memocomp /> */}
+      <TodoList />
     </>
   );
 };
